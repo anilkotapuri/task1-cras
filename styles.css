@@ -1,0 +1,48 @@
+body{
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 42cm 22cm ;
+}
+body img{
+    align-self: right;
+}
+header{
+    align-self: right;
+    position: relative;
+    align-items: right;
+    background-color: white;
+    text-align: right;
+    padding-left: -500px;
+    
+    width: 500px;
+    margin-left: 26cm;
+    margin-top: -150px;
+
+}
+img{
+    width: 100px;
+    align-self: left;
+    padding-top: -60px;
+    padding-bottom: 50px;
+}
+header li {
+    display: inline;
+    padding-right: 45px;
+    align-self: center;
+    align-items: end;
+    size: 10cm;
+}
+header li a{
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+header li a :hover{
+    color: brown;
+}
+h1{
+    color: blue;
+}
+.logo{
+    position:relative;
+    padding-left: 10px;
+}
