@@ -1,0 +1,107 @@
+body{
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 42cm 20cm ;
+}
+body img{
+    align-self: right;
+}
+header{
+    align-self: right;
+    position: relative;
+    align-items: right;
+    background-color: white;
+    text-align: right;
+    padding-left: -500px;
+    
+    width: 500px;
+    margin-left: 26cm;
+    margin-top: -150px;
+
+}
+img{
+    width: 100px;
+    align-self: left;
+    padding-top: -60px;
+    padding-bottom: 50px;
+}
+header li {
+    display: inline;
+    padding-right: 45px;
+    align-self: center;
+    align-items: end;
+    size: 10cm;
+}
+header li a{
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+header li a :hover{
+    color: brown;
+}
+h1{
+    color: blue;
+}
+.logo{
+    position:relative;
+    padding-left: 10px;
+}
+.task1{
+    background-color: #ececec;
+    border: 10cm;
+    width: 400px;
+    height: 500px;
+    margin-left: 3cm;
+    border-radius: 1cm;
+    -webkit-text-fill-color: #385a64;
+    text-align: center;
+    box-shadow: #000000;
+}
+marquee{
+    background-color: #385a64;
+    text-emphasis-color: black;
+}
+.task2{
+    background-color:#ececec;
+    border: 10cm;
+    width: 400px;
+    height: 500px;
+    margin-left: 15cm;
+    margin-top: -13.9cm;
+    -webkit-text-fill-color: #385a64;
+    text-align: center;
+    border-radius: 1cm;
+
+}
+.task3{
+    background-color:#ececec;
+    border: 10cm;
+    width: 400px;
+    height: 500px;
+    margin-left: 27cm;
+    margin-top: -13.9cm;
+    -webkit-text-fill-color: #385a64;
+    text-align: center;
+    border-radius: 1cm;
+
+}
+.rocket{
+    margin-right:-10%;
+    width: 250px;
+    position:absolute;
+    right: 10%;
+    bottom: 0%;
+    animation: rocket step-start 4s infinite;
+
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105;
+        opacity: 1;
+    }
+
+}
